@@ -25,7 +25,7 @@ while True:
             now = datetime.now()
             current_time = now.strftime("%H:%M:%S")
 
-            req = session().post(tiktok_url, proxies={'http': f'http://{proxy}', 'https': f'http://{proxy}'})
+            req = session().post(tiktok_url, proxies={'http': f'http://{proxy}', 'https': f'https://{proxy}'})
             print(Fore.RED + f'[{current_time}]' + Fore.GREEN + f' Proxy: {proxy} Laporan Terkirim')
         except:
             print(Fore.RED + 'Ada yang salah. Ini mungkin tidak berfungsi dengan benar.')
