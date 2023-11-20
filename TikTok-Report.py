@@ -22,7 +22,7 @@ tiktok_url = input("Request Link: ")
 
 while True:
 
-    proxies = requests.get(url="https://advanced.name/freeproxy/655ae43e02ac6").text.split('\r\n')
+    proxies = requests.get(url="https://advanced.name/freeproxy/655aee4dac487").text.split('\r\n')
 
     for proxy in proxies:
 
