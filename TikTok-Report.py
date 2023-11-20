@@ -32,7 +32,7 @@ while True:
 
             req = session().post(tiktok_url, proxies={'http': f'http://{proxy}'})
 
-            print(Fore.RED + f'[{current_time}]' + Fore.GREEN + f' Proxy: {proxy} Laporan Terkirim')
+            print(Fore.RED + f'[{current_time}]' + Fore.GREEN + f' Proxy: {proxy} Report Send')
         except:
             print(Fore.RED +'Ada yang salah. Ini mungkin tidak berfungsi dengan benar :) ')
             input('Tekan Enter untuk menutup program')
